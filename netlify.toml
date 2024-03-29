@@ -2,3 +2,29 @@
 from = "/raj"
 to = "index.html"
 status = 200
+
+[[redirects]]
+from = "/services"
+to = "index.html"
+status = 200
+
+[[redirects]]
+from = "/about"
+to = "index.html"
+status = 200
+
+[[redirects]]
+from = "/urvashi"
+to = "index.html"
+status = 200
+
+[[redirects]]
+from = "/dev"
+to = "index.html"
+status = 200
+
+[[redirects]]
+from = "/vishakha"
+to = "index.html"
+status = 200
+

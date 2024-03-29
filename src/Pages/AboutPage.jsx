@@ -36,7 +36,7 @@ export default function AboutPage() {
             <section className="team-section">
                <h2>Our Team</h2>
                <div className="team-members">
-                  <NavLink to="../Raj">
+                  <NavLink to="../raj">
                      <div className="team-member">
                         <div className="team-pfp">
                            <img src="/4x6.jpg" alt="Team Member 1" />
@@ -45,7 +45,7 @@ export default function AboutPage() {
                         <p>Director of Operations</p>
                      </div>
                   </NavLink>
-                  <NavLink to="../UrvashiProfile">
+                  <NavLink to="../urvashi">
                      <div className="team-member">
                         <div className="team-pfp">
                            <img src="/kuh" alt="Team Member 2" />
@@ -54,7 +54,7 @@ export default function AboutPage() {
                         <p>Managing Director</p>
                      </div>
                   </NavLink>
-                  <NavLink to="../DevProfile">
+                  <NavLink to="../dev">
                      <div className="team-member">
                         <div className="team-pfp">
                            <img src="/4x6kbu" alt="Team Member 3" />
@@ -63,7 +63,7 @@ export default function AboutPage() {
                         <p>Financial Advisor</p>
                      </div>
                   </NavLink>
-                  <NavLink to="../VishakhaProfile">
+                  <NavLink to="../vishakha">
                      <div className="team-member">
                         <div className="team-pfp">
                            <img src="/4x6gvihu" alt="Team Member 4" />

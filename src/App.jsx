@@ -26,9 +26,9 @@ function App() {
           <Route path = "blogs" element={<BlogsPage />}/>
           <Route path = "services" element={<ServicesPage />}/>
           <Route path = "/raj" element={<RajProfile />}/>
-          <Route path = "DevProfile" element={<DevProfile />}/>
-          <Route path = "UrvashiProfile" element={<UrvashiProfile />}/>
-          <Route path = "VishakhaProfile" element={<VishakhaProfile />}/>
+          <Route path = "dev" element={<DevProfile />}/>
+          <Route path = "urvashi" element={<UrvashiProfile />}/>
+          <Route path = "vishakha" element={<VishakhaProfile />}/>
         </Routes>
       </main>
     </BrowserRouter>
