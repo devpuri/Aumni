@@ -1,0 +1,170 @@
+/* About Section */
+
+.main-about-container-page{
+  background-color: #164C78;
+  color: #164C78;
+}
+.ab-section {
+  background-color: #f9f9f9;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab-content {
+  max-width: 800px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.ab-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #164C78;
+}
+
+.ab-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ab-image {
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+.ab-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+/* Team Section */
+.team-section {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-member img{
+  width: 100%;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.team-member p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.team-pfp{
+  padding: 1rem;
+}
+
+/* Team Member Card */
+.team-member {
+  width: 250px;
+  margin: 0 20px;
+  margin-bottom: 40px;
+  background-color: #E5EBEE;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.team-member p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #666;
+}
+
+
+@media (max-width: 1150px){
+  .ab-section{
+    align-items: start;
+  }
+}
+
+@media (max-width: 850px){
+  .ab-content p{
+    width: 150%;
+  }
+}
+
+@media (max-width: 700px){
+  .ab-content{
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 600px){
+  .ab-image{
+    margin-left: 0;
+  }
+
+  .ab-content h2{
+    font-size: 2.4em;
+  }
+  .ab-content p{
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 525px){
+  .ab-section{
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 450px){
+  .ab-content h2{
+    font-size: 1.9em;
+  }
+  .ab-content p{
+    font-size: .9em;
+  }
+}
+
+@media (max-width: 380px){
+  .ab-content h2{
+    font-size: 1.6em;
+  }
+  .ab-content p{
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 325px){
+  .ab-image{
+    display: none;
+  }
+  .ab-content p{
+    width: 100%;
+  }
+}
