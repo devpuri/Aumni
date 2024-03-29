@@ -1,6 +1,7 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import "./css/AboutPageStyle.css";
+import { NavLink } from "react-router-dom";
 
 export default function AboutPage() {
    return (
@@ -35,34 +36,42 @@ export default function AboutPage() {
             <section className="team-section">
                <h2>Our Team</h2>
                <div className="team-members">
-                  <div className="team-member">
-                     <div className="team-pfp">
-                        <img src="/4x6.jpg" alt="Team Member 1" />
+                  <NavLink to="../Raj">
+                     <div className="team-member">
+                        <div className="team-pfp">
+                           <img src="/4x6.jpg" alt="Team Member 1" />
+                        </div>
+                        <h3>Raj Kumar</h3>
+                        <p>Director of Operations</p>
                      </div>
-                     <h3>Raj Kumar</h3>
-                     <p>Director of Operations</p>
-                  </div>
-                  <div className="team-member">
-                     <div className="team-pfp">
-                        <img src="/kuh" alt="Team Member 2" />
-                     </div>{" "}
-                     <h3>Urvashi Saini</h3>
-                     <p>Managing Director</p>
-                  </div>
-                  <div className="team-member">
-                     <div className="team-pfp">
-                        <img src="/4x6kbu" alt="Team Member 3" />
-                     </div>{" "}
-                     <h3>Dev Puri</h3>
-                     <p>Financial Advisor</p>
-                  </div>
-                  <div className="team-member">
-                     <div className="team-pfp">
-                        <img src="/4x6gvihu" alt="Team Member 4" />
-                     </div>{" "}
-                     <h3>Vishakha Puri</h3>
-                     <p>CEO</p>
-                  </div>
+                  </NavLink>
+                  <NavLink to="../UrvashiProfile">
+                     <div className="team-member">
+                        <div className="team-pfp">
+                           <img src="/kuh" alt="Team Member 2" />
+                        </div>{" "}
+                        <h3>Urvashi Saini</h3>
+                        <p>Managing Director</p>
+                     </div>
+                  </NavLink>
+                  <NavLink to="../DevProfile">
+                     <div className="team-member">
+                        <div className="team-pfp">
+                           <img src="/4x6kbu" alt="Team Member 3" />
+                        </div>{" "}
+                        <h3>Dev Puri</h3>
+                        <p>Financial Advisor</p>
+                     </div>
+                  </NavLink>
+                  <NavLink to="../VishakhaProfile">
+                     <div className="team-member">
+                        <div className="team-pfp">
+                           <img src="/4x6gvihu" alt="Team Member 4" />
+                        </div>{" "}
+                        <h3>Vishakha Puri</h3>
+                        <p>CEO</p>
+                     </div>
+                  </NavLink>
                   {/* Add more team member cards here */}
                </div>
             </section>

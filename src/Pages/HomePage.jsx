@@ -95,6 +95,7 @@ export default function HomePage() {
             <section id="services" className="services-section">
                <h2>Our Services</h2>
                <div className="services-container">
+                  <NavLink to="/services">
                   <div className="services-card">
                      <div className="services-card-inner">
                         <p className="services-card-title">
@@ -131,6 +132,8 @@ export default function HomePage() {
                         </div>
                      </div>
                   </div>
+                  </NavLink>
+                  <NavLink to="/services">
                   <div className="services-card">
                      <div className="services-card-inner">
                         <p className="services-card-title">
@@ -149,6 +152,8 @@ export default function HomePage() {
                         </div>
                      </div>
                   </div>
+                  </NavLink>
+                  <NavLink to="/services">
                   <div className="services-card">
                      <div className="services-card-inner">
                         <p className="services-card-title">
@@ -167,6 +172,8 @@ export default function HomePage() {
                         </div>
                      </div>
                   </div>
+                  </NavLink>
+                  <NavLink to="../services">
                   <div className="services-card">
                      <div className="services-card-inner">
                         <p className="services-card-title">
@@ -185,6 +192,7 @@ export default function HomePage() {
                         </div>
                      </div>
                   </div>
+                  </NavLink>
                   {/* <div className="services-card">
               <div className="services-card-inner">
                 <p className="services-card-title">Card header</p>

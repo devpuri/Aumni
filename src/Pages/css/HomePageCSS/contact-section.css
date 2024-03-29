@@ -87,11 +87,10 @@
 .section-contact .form-contact .submit-input input {
 		margin-top: 40px;
     padding: 15px 50px;
-    background-color: #de3842;
+    background-color: #fff;
     color: #fff;
     border: none;
     font-weight: 700;
-    transition: background-color .3s;
 }
 
 .section-contact .form-contact .submit-input input:hover {
