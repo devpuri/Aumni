@@ -15,7 +15,7 @@ export default function HomePage() {
          id: 1,
          text: "As the Operations Manager at Qaizen, I can confidently say that their housekeeping and security staff services have exceeded our expectations. The team they provided was professional, efficient, and incredibly reliable. Our facilities have never looked better, and our employees feel safer than ever before. Aumni Management Services has truly elevated our standards when it comes to staffing solutions. Highly recommended",
          clientName: "Anup Sharma",
-         clientPos: "Operations Manager at Qaizen.",
+         clientPos: "Finance and Admin Head at Qaizen.",
       },
       {
          id: 2,

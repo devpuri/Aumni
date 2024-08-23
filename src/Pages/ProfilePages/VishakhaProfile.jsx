@@ -13,7 +13,7 @@ export default function RajProfile() {
          <Navbar />
          <div className="profile-main">
             <div className="heading-container">
-               <h1> Vishakha Puri</h1>
+               <h1> Vishakha P.</h1>
                <hr />
             </div>
          </div>

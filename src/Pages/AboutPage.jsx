@@ -36,19 +36,19 @@ export default function AboutPage() {
             <section className="team-section">
                <h2>Our Team</h2>
                <div className="team-members">
-                  <NavLink to="../raj">
+               <NavLink to="../vishakha">
                      <div className="team-member">
                         <div className="team-pfp">
-                           <img src="/4x6.jpg" alt="Team Member 1" />
-                        </div>
-                        <h3>Raj Kumar</h3>
-                        <p>Director of Operations</p>
+                           <img src="/4x6gvihu" alt="Team Member 4" />
+                        </div>{" "}
+                        <h3>Vishakha</h3>
+                        <p>Director</p>
                      </div>
                   </NavLink>
                   <NavLink to="../urvashi">
                      <div className="team-member">
                         <div className="team-pfp">
-                           <img src="/kuh" alt="Team Member 2" />
+                           <img src="/urvashi_pfp.png" alt="Team Member 2" />
                         </div>{" "}
                         <h3>Urvashi Saini</h3>
                         <p>Managing Director</p>
@@ -57,19 +57,20 @@ export default function AboutPage() {
                   <NavLink to="../dev">
                      <div className="team-member">
                         <div className="team-pfp">
-                           <img src="/4x6kbu" alt="Team Member 3" />
+                           <img src="/dev_pfp.png" alt="Team Member 3" />
                         </div>{" "}
                         <h3>Dev Puri</h3>
                         <p>Financial Advisor</p>
                      </div>
                   </NavLink>
-                  <NavLink to="../vishakha">
+                  
+                  <NavLink to="../raj">
                      <div className="team-member">
                         <div className="team-pfp">
-                           <img src="/4x6gvihu" alt="Team Member 4" />
-                        </div>{" "}
-                        <h3>Vishakha Puri</h3>
-                        <p>CEO</p>
+                           <img src="/4x6.jpg" alt="Team Member 1" />
+                        </div>
+                        <h3>Raj Kumar</h3>
+                        <p>Operations Manager</p>
                      </div>
                   </NavLink>
                   {/* Add more team member cards here */}
