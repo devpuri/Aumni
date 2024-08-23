@@ -1,10 +1,15 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import { Helmet } from 'react-helmet-async';
 import "./css/AboutPageStyle.css";
 import { NavLink } from "react-router-dom";
 
 export default function AboutPage() {
    return (
+      <>
+      <Helmet>
+         <title>About Aumni</title>
+      </Helmet>
       <div className="main-about-container-page">
          <Navbar />
          <div className="ab-container">
@@ -79,5 +84,6 @@ export default function AboutPage() {
          </div>
          <Footer />
       </div>
+      </>
    );
 }

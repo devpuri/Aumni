@@ -1,10 +1,15 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import { Helmet } from "react-helmet-async";
 import USP from "../Component/USP";
 import "./css/ServicesPgStyle.css";
 
 export default function ServicesPage() {
    return (
+      <>
+      <Helmet>
+         <title>Our Services</title>
+      </Helmet>  
       <div className="main-service-page">
          <Navbar />
          <div className="services-main">
@@ -147,5 +152,6 @@ export default function ServicesPage() {
 
          <Footer />
       </div>
+      </>
    );
 }

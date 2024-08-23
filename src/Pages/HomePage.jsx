@@ -1,5 +1,6 @@
 import "../App.css";
 import Navbar from "../Component/Navbar";
+import { Helmet } from 'react-helmet-async';
 import "./css/HomePageCSS/about-section.css";
 import "./css/HomePageCSS/services-section.css";
 import "./css/HomePageCSS/testimonial-section.css";
@@ -27,7 +28,10 @@ export default function HomePage() {
    ];
 
    return (
-      <>
+      <> 
+      <Helmet>
+         <title>Welcome to Aumni</title>
+      </Helmet>
          <div className="homepage-container">
             <div className=" spacer layer1">
                <header>
